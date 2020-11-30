@@ -12,6 +12,8 @@ body {
     background-position: 30vw 40vh, -40rem -65vh;
     background-repeat: no-repeat;
 }
+
+/* User info container */
 .card-container {
     width: 90%;
     max-width: 360px;
@@ -20,13 +22,14 @@ body {
     background-color: #fff;
     border-radius: 15px;
 }
-
+/* background image */
 .background-div {
     height: 9rem;
     border-radius: 15px 15px 0 0;
     background-image: url(./images/bg-pattern-card.svg);
 }
 
+/* User's info */
 .user-information {
     padding: 1.5rem 0;
 }
@@ -45,6 +48,11 @@ body {
     font-weight: 400;
 }
 
+.user-location {
+    font-size: 16px;
+}
+
+/* account status */
 .account-stats {
     display: flex;
     justify-content: space-evenly;
@@ -59,10 +67,6 @@ body {
 .account-stats p, .user-location, span {
     color: hsl(0, 0%, 59%);
     font-size: 12px;
-}
-
-.user-location {
-    font-size: 16px;
 }
 
 .user-name, .account-stat, span {
